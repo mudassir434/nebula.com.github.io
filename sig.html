@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form id="signupForm" onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <div id="errorContainer" style="color: red;"></div>
+
+    <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+
+            var errorContainer = document.getElementById("errorContainer");
+            errorContainer.innerHTML = ''; // Clear any previous error messages
+
+            if (password !== confirmPassword) {
+                errorContainer.innerHTML = "Error: Password and Confirm Password do not match.";
+                return false; // Prevent form submission
+            }
+
+            // You can add your own logic here to check if the username is already taken
+            // For simplicity, we'll assume the username "example_user" is taken
+            if (username === '') {
+                errorContainer.innerHTML = "Error: Username is already taken. Please try a different username.";
+                return false; // Prevent form submission
+            }
+
+            return true; // Allow form submission
+        }
+    </script>
+</body>
+</html>

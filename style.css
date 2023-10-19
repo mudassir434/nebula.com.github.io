@@ -1,0 +1,309 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+
+/* Style the header */
+header {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    color: #bdd10b;
+    font-size: 24px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more specific styles as needed for your website */
+/* Reset some default browser styles */
+
+body, h1, h2, p, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #0b1fd1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #2d02ee;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 345px;
+}
+
+/* Add more specific styles as needed for your website */
+
+
+  
+  body{
+    background-color: white;
+  }
+ 
+  .PO{
+    text-decoration: none;
+    font-weight: BOLD;
+  }
+
+ 
+
+  /* This is a CSS comment */
+
+/* Apply styles to the <h1> element */
+h1 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Apply styles to all <p> elements */
+p {
+    color: #333; /* You can use color names or hexadecimal values */
+    font-size: 16px;
+}
+
+/* Apply styles to a specific element with an ID */
+#special-paragraph {
+    font-weight: bold;
+}
+
+/* Apply styles to elements with a specific class */
+.important-text {
+    color: red;
+}
+
+/* Apply styles to links */
+a {
+    text-decoration: none;
+    color: #0077FF;
+}
+
+/* Apply styles to a button element with the class "btn" */
+button.btn {
+    background-color: #44AA44;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.chopa{
+    text-align:right;
+}
+
+.bT{
+text-align: right;
+
+}
+.LOGO{
+    margin-top: -20px; width: 50px; height: 50px; border-radius: 100%;
+}
+
+
+
+
+body {
+    background-color: #f0f0f0;
+    height: 1200px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* hide the vertical scrollbar */
+   
+}
+
+.moving-text {
+    position: absolute;
+    top: 30%;
+    right: -100%; /* Start off-screen */
+    white-space: nowrap; /* Prevent text from breaking */
+    font-size: 20px;
+    color: #333;
+    animation: moveText 20s linear infinite; /* Customize animation duration as needed */
+}
+
+@keyframes moveText {
+    to {
+        right: 100%; /* Move to the left edge */
+        
+
+    }
+}
+
+body{
+    background-image: url(bac.png);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-left {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-right {
+    background-color: antiquewhite ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    z-index: -1;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('bac.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background image */
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.cnt{
+    text-align: center;
+}
+
+b{
+color: black;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: -10%;
+    
+}
+
